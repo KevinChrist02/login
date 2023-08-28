@@ -33,6 +33,9 @@
 
                     <!-- the button is disabeled until username and password has been filled -->
                     <button @click="loggedIn" :disabled="!loginValid">Login</button>
+                    <div class="welcomeMessage">
+                        <p v-show="showMessage">Welcome, {{username}}</p>    
+                    </div>
                 </fieldset>
             </form>
         </div>

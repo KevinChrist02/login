@@ -1,20 +1,34 @@
-*{
+* {
     background-color: #151613;
-    color:white;
+    color: #f1edf7;
     font-family: 'Handjet', cursive;
+    font-size: 23px;
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow: hidden;
 }
 
-#app{
+#app {
     display: flex;
     justify-content: center;
     width: auto;
 }
 
+.container:hover{
+    transform: scale(1.1);
+}
+
+button:hover {
+    background: #f1edf7;
+    color: #151613;
+}
+
+input:focus{
+    border-color: #f1edf7;
+}

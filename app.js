@@ -3,11 +3,12 @@ const app = Vue.createApp({
         return{
             username: "",
             password: "",
+            showMessage: false,
         };
     },
     methods:{
         loggedIn(){
-            alert("Welcome, " + this.username);
+            this.showMessage = true;
         },
     },
     computed:{
