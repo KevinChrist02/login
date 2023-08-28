@@ -2,10 +2,19 @@
     background-color: #151613;
     color:white;
     font-family: 'Handjet', cursive;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 #app{
     display: flex;
     justify-content: center;
+    width: auto;
 }
 
