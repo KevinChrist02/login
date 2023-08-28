@@ -31,7 +31,8 @@
                     <label for="user_password">Password</label>
                     <input type="password" name="user_password" id="user_password" required placeholder="*" v-model="password">
 
-                    <button @click="loggedIn">Login</button>
+                    <!-- the button is disabeled until username and password has been filled -->
+                    <button @click="loggedIn" :disabled="!loginValid">Login</button>
                 </fieldset>
             </form>
         </div>
