@@ -22,7 +22,7 @@
                     <label for="user_password">Password</label>
                     <input type="password" name="user_password" id="user_password" required placeholder="*" v-model="password">
 
-                    <button type="submit">Login</button>
+                    <button @click="loggedIn">Login</button>
                 </fieldset>
             </form>
         </div>

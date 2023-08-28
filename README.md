@@ -1,1 +1,1 @@
-# Buidling a Login Form with Vue.js 
+# Building a Login Form with Vue.js 

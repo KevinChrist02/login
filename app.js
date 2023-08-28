@@ -6,7 +6,9 @@ const app = Vue.createApp({
         };
     },
     methods:{
-        
+        loggedIn(){
+            alert("Welcome, " + this.username);
+        },
     },
 });
 
