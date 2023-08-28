@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loginform</title>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
+    </style>
 </head>
 
 <body>
@@ -14,7 +19,11 @@
         <div class="container">
             <form action="#" method="get">
                 <fieldset>
-                    <legend>Login</legend>
+                    <legend>
+                        <span class="material-symbols-outlined">
+                            login
+                        </span>
+                    </legend>
 
                     <label for="username">Username</label>
                     <input type="text" name="username" id="username" placeholder="kevin123" required v-model="username">

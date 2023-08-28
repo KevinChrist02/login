@@ -1,0 +1,11 @@
+*{
+    background-color: #151613;
+    color:white;
+    font-family: 'Handjet', cursive;
+}
+
+#app{
+    display: flex;
+    justify-content: center;
+}
+
