@@ -1,34 +1,50 @@
 * {
-    background-color: #151613;
-    color: #f1edf7;
-    font-family: 'Handjet', cursive;
-    font-size: 23px;
-    box-sizing: border-box;
+  background-color: #151613;
+  color: #f1edf7;
+  font-family: "Handjet", cursive;
+  font-size: 23px;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
 }
 
 #app {
-    display: flex;
-    justify-content: center;
-    width: auto;
+  display: flex;
+  justify-content: center;
+  width: auto;
 }
 
-.container:hover{
-    transform: scale(1.1);
+.container:hover {
+  transform: scale(1.1);
 }
 
 button:hover {
-    background: #f1edf7;
-    color: #151613;
+  background: #f1edf7;
+  color: #151613;
 }
 
-input:focus{
-    border-color: #f1edf7;
+input:focus {
+  border-color: #f1edf7;
+}
+label {
+  display: block;
+  margin: 30px auto;
+}
+
+@media (max-width: 425px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    max-width: 250px;
+  }
 }
